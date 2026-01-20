@@ -35,19 +35,17 @@
     <!-- Initialize -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            if (window.mountChatUI) {
-                window.mountChatUI('chat-widget', {
-                    endpoint: 'https://your-api-endpoint.com/chat',
-                    title: 'HTML Chat',
-                    welcomeMessage: 'Hi there! I am running via CDN scripts.',
-                    description: 'Ask me anything.',
-                    inputPlaceholder: 'Type your message...',
-                    logoSrc: 'https://cdn-icons-png.flaticon.com/512/6134/6134346.png', // Example Logo
-                    soundSrc: '', // Optional URL for sound
-                    footerText: 'Powered by Custom RAG'
-                    
-                });
-            }
+        window.mountChatUI('chat-widget', {
+            endpoint: 'https://your-api-endpoint.com/chat',
+            title: 'HTML Chat',
+            welcomeMessage: 'Hi there! I am running via CDN scripts.',
+            description: 'Ask me anything.',
+            inputPlaceholder: 'Type your message...',
+            logoSrc: 'https://cdn-icons-png.flaticon.com/512/6134/6134346.png', // Example Logo
+            soundSrc: '', // Optional URL for sound
+            footerText: 'Powered by Custom RAG'
+            
+        });
         });
     </script>
 </body>
