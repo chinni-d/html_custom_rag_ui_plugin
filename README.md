@@ -32,7 +32,6 @@ Add this script after the previous one to start the chat:
 
 ```html
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
         window.mountChatUI('chat-widget', {
             endpoint: 'https://your-api-endpoint.com/chat', // YOUR API URL
             title: 'Support Chat',
@@ -43,7 +42,6 @@ Add this script after the previous one to start the chat:
             soundSrc: '', 
             footerText: 'Powered by Custom RAG'
         });
-    });
 </script>
 ```
 
