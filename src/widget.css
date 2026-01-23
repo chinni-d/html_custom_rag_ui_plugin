@@ -60,6 +60,15 @@
   --tw-backdrop-sepia:  ;
 }
 
+/* Dark Mode Defaults Override */
+#chat-ui-scope .dark,
+#chat-ui-scope .dark *,
+#chat-ui-scope .dark *::before,
+#chat-ui-scope .dark *::after {
+  border-color: #374151; /* gray-700 */
+  --tw-ring-offset-color: #1f2937; /* gray-800 */
+}
+
 /* 2. Reset text and positioning defaults */
 #chat-ui-scope {
   font-family: inherit; /* Allow inheriting font, or force one if needed */
