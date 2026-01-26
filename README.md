@@ -40,7 +40,8 @@ Add this script after the previous one to start the chat:
             inputPlaceholder: 'Type your message...',
             logoSrc: 'https://cdn-icons-png.flaticon.com/512/6134/6134346.png',
             soundSrc: '', 
-            footerText: 'Powered by Custom RAG'
+            footerText: 'Powered by Custom RAG',
+            position: 'right' // 'left' or 'right'
         });
 </script>
 ```
@@ -60,6 +61,7 @@ Add this script after the previous one to start the chat:
 | `footerText` | `ReactNode` | ❌ | `Default Footer` | Custom text or JSX to display in the footer of the chat window. |
 | `inputPlaceholder` | `string` | ❌ | `"Message"` | Placeholder text for the input text area. |
 | `theme` | `string` | ❌ | `"light"` | The color theme of the chat widget (`"light"` or `"dark"`). |
+| `position` | `string` | ❌ | `"right"` | The position of the chat widget on the screen (`"left"` or `"right"`). |
 
 ## 🧠 Configure RAG Pipeline
 
