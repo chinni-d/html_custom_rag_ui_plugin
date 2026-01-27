@@ -60,7 +60,7 @@ Add this script after the previous one to start the chat:
 | `description` | `string` | ❌ | `"I'm here..."` | A short description text under the welcome message. |
 | `footerText` | `ReactNode` | ❌ | `Default Footer` | Custom text or JSX to display in the footer of the chat window. |
 | `inputPlaceholder` | `string` | ❌ | `"Message"` | Placeholder text for the input text area. |
-| `theme` | `string` | ❌ | `"light"` | The color theme of the chat widget (`"light"` or `"dark"`). |
+| `theme` | `string` | ❌ | `"light"` | The color theme of the chat widget (`"light"`, `"dark"`, or `"auto"`). |
 | `position` | `string` | ❌ | `"right"` | The position of the chat widget on the screen (`"left"` or `"right"`). |
 
 ## 🧠 Configure RAG Pipeline
