@@ -11,7 +11,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@dmanikanta17/chat-ui": "^0.1.24",
+    "@dmanikanta17/chat-ui": "^0.1.26",
     "@types/node": "^25.0.9",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
