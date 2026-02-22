@@ -3,7 +3,7 @@
 A simple, drop-in chat widget for any HTML website.
 
 ## Live Demo
-Check out the **[Live Preview Here](https://dmanikanta-ai-plugin.vercel.app/)**.
+Check out the **[Live Preview Here](https://sdk.manikantadarapureddy.in/)**.
 
 ---
 
@@ -12,7 +12,7 @@ Check out the **[Live Preview Here](https://dmanikanta-ai-plugin.vercel.app/)**.
 ### Step 1: Add CSS
 Add this line inside the `<head>` tag of your HTML file:
 ```html
-<link rel="stylesheet" href="https://dmanikanta-ai-plugin.vercel.app/chat-ui-widget.css">
+<link rel="stylesheet" href="https://sdk.manikantadarapureddy.in/chat-ui-widget.css">
 ```
 
 ### Step 2: Add Container
@@ -24,7 +24,7 @@ Add this empty `div` where you want the widget to appear (usually inside `<body>
 ### Step 3: Add Script
 Add this line at the end of your `<body>` tag:
 ```html
-<script src="https://dmanikanta-ai-plugin.vercel.app/chat-ui-widget.js"></script>
+<script src="https://sdk.manikantadarapureddy.in/chat-ui-widget.js"></script>
 ```
 
 ### Step 4: Initialize Widget
